@@ -34,4 +34,4 @@ const AdvertWidget = () => {
   );
 };
 
-export default AdvertWidget;
+export default AdvertWidget; 

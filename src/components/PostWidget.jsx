@@ -37,7 +37,7 @@ const PostWidget = ({
     onDelete(postId);
     setTimeout(() => {
       window.location.reload();
-    }, 1000); // reload after 1 second (adjust as needed)
+    }, 1000); // reload after 1 second (adjust as needed).
   };
   
 

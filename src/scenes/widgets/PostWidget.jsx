@@ -97,7 +97,7 @@ const PostWidget = ({
     });
     const updatedPost = await response.json();
     dispatch(setPost({ post: updatedPost }));
-    setComment(""); // Clear the comment input field
+    setComment(""); // Clear the comment input field.
   };
 
   

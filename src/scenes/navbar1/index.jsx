@@ -116,7 +116,7 @@ const Navbar = () => {
             </IconButton>
           </Box>
 
-          {/* MENU ITEMS */}
+          {/* MENU ITEMS. */}
           <FlexBetween
             display="flex"
             flexDirection="column"

@@ -59,7 +59,7 @@ const PostsWidget = ({ userId, isProfile = false }) => {
       })
       .reverse();
   }
-  // render the filtered posts here
+  // render the filtered posts here.
   
 
 

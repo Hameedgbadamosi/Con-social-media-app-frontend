@@ -57,7 +57,7 @@ const ChatWidget = ({ userId }) => {
       const newSocket = io("http://localhost:3002");
       setSocket(newSocket);
   
-      // join the chat room based on the selected category
+      // join the chat room based on the selected category.
       newSocket.emit('joinCategory', selectedCategory);
   
       // listen for incoming messages

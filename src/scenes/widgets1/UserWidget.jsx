@@ -81,7 +81,7 @@ const UserWidget = ({ userId, picturePath }) => {
 
       <Divider />
 
-      {/* THIRD ROW */}
+      {/* THIRD ROW .*/}
      
       <Divider />
 

@@ -55,4 +55,4 @@ const Friend = ({ friendId, name, subtitle, userPicturePath   }) => {
   
 };
 
-export default Friend;
+export default Friend; 

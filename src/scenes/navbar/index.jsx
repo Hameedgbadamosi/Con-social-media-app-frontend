@@ -122,7 +122,7 @@ const Navbar = () => {
         </IconButton>
       )}
 
-      {/* MOBILE NAV */}
+      {/* MOBILE NAV. */}
       {!isNonMobileScreens && isMobileMenuToggled && (
         <Box
           position="fixed"
@@ -134,7 +134,7 @@ const Navbar = () => {
           minWidth="300px"
           backgroundColor={background}
         >
-          {/* CLOSE ICON */}
+          {/* CLOSE ICON. */}
           <Box display="flex" justifyContent="flex-end" p="1rem">
             <IconButton
               onClick={() => setIsMobileMenuToggled(!isMobileMenuToggled)}
@@ -143,7 +143,7 @@ const Navbar = () => {
             </IconButton>
           </Box>
 
-          {/* MENU ITEMS */}
+          {/* MENU ITEMS. */}
           <FlexBetween
             display="flex"
             flexDirection="column"
@@ -202,4 +202,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navbar; 
